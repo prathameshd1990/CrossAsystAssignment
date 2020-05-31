@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossAsystAssignment">
+  <test thread-count="5" name="AccountCreation">
+    <classes>
+      <class name="Testcases.AccountCreationTest"/>
+    </classes>
+  </test> <!-- AccountCreation -->
+  <test thread-count="5" name="LoginTest">
+    <classes>
+      <class name="Testcases.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+   <test thread-count="5" name="E2ETest">
+    <classes>
+      <class name="Testcases.E2ETest"/>
+    </classes>
+  </test> <!-- E2ETest -->
+</suite> <!-- Suite -->

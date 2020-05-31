@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossAsystAssignment" duration-ms="108749" started-at="2020-05-31T19:06:22 IST" finished-at="2020-05-31T19:08:11 IST">
+    <groups>
+    </groups>
+    <test name="AccountCreation" duration-ms="40271" started-at="2020-05-31T19:06:22 IST" finished-at="2020-05-31T19:07:03 IST">
+      <class name="Testcases.AccountCreationTest">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="initalizeTest" is-config="true" duration-ms="12694" started-at="2020-05-31T19:06:22 IST" finished-at="2020-05-31T19:06:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTest -->
+        <test-method status="PASS" signature="NewReistration()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="NewReistration" duration-ms="27378" started-at="2020-05-31T19:06:35 IST" finished-at="2020-05-31T19:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewReistration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2020-05-31T19:07:03 IST" finished-at="2020-05-31T19:07:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.AccountCreationTest -->
+    </test> <!-- AccountCreation -->
+    <test name="LoginTest" duration-ms="23784" started-at="2020-05-31T19:07:03 IST" finished-at="2020-05-31T19:07:27 IST">
+      <class name="Testcases.LoginTest">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="initalizeTest" is-config="true" duration-ms="14108" started-at="2020-05-31T19:07:03 IST" finished-at="2020-05-31T19:07:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTest -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="Login" duration-ms="9486" started-at="2020-05-31T19:07:17 IST" finished-at="2020-05-31T19:07:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="closeBrowser" is-config="true" duration-ms="185" started-at="2020-05-31T19:07:26 IST" finished-at="2020-05-31T19:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="E2ETest" duration-ms="44659" started-at="2020-05-31T19:07:27 IST" finished-at="2020-05-31T19:08:11 IST">
+      <class name="Testcases.E2ETest">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.E2ETest@3b084709]" name="initalizeTest" is-config="true" duration-ms="6022" started-at="2020-05-31T19:07:27 IST" finished-at="2020-05-31T19:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeTest -->
+        <test-method status="PASS" signature="E2ETesting()[pri:0, instance:Testcases.E2ETest@3b084709]" name="E2ETesting" duration-ms="38513" started-at="2020-05-31T19:07:33 IST" finished-at="2020-05-31T19:08:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETesting -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.E2ETest@3b084709]" name="closeBrowser" is-config="true" duration-ms="120" started-at="2020-05-31T19:08:11 IST" finished-at="2020-05-31T19:08:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.E2ETest -->
+    </test> <!-- E2ETest -->
+  </suite> <!-- CrossAsystAssignment -->
+</testng-results>
