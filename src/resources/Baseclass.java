@@ -30,11 +30,11 @@ public class Baseclass {
 		externalData.load(file);
 		String browserName = externalData.getProperty("browser");
 		if(browserName.equals("chrome")) {			//for chrome
-			System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", filePath + "\\src\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("firefox")) { 	// for firefox
-			System.setProperty("webdriver.firefox.driver", "C:\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", filePath + "\\src\\resources\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if(browserName.equals("IE")) {		// for IE

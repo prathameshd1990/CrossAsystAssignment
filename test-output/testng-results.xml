@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="CrossAsystAssignment" duration-ms="83062" started-at="2020-05-31T19:23:29 IST" finished-at="2020-05-31T19:24:52 IST">
+  <suite name="CrossAsystAssignment" duration-ms="75258" started-at="2020-06-03T08:51:53 IST" finished-at="2020-06-03T08:53:09 IST">
     <groups>
     </groups>
-    <test name="AccountCreation" duration-ms="33977" started-at="2020-05-31T19:23:29 IST" finished-at="2020-05-31T19:24:03 IST">
+    <test name="AccountCreation" duration-ms="32095" started-at="2020-06-03T08:51:53 IST" finished-at="2020-06-03T08:52:26 IST">
       <class name="Testcases.AccountCreationTest">
-        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="initalizeTest" is-config="true" duration-ms="8851" started-at="2020-05-31T19:23:29 IST" finished-at="2020-05-31T19:23:38 IST">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="initalizeTest" is-config="true" duration-ms="6720" started-at="2020-06-03T08:51:53 IST" finished-at="2020-06-03T08:52:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeTest -->
-        <test-method status="PASS" signature="NewReistration()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="NewReistration" duration-ms="24995" started-at="2020-05-31T19:23:38 IST" finished-at="2020-05-31T19:24:03 IST">
+        <test-method status="PASS" signature="NewReistration()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="NewReistration" duration-ms="25106" started-at="2020-06-03T08:52:00 IST" finished-at="2020-06-03T08:52:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewReistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2020-05-31T19:24:03 IST" finished-at="2020-05-31T19:24:03 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.AccountCreationTest@57536d79]" name="closeBrowser" is-config="true" duration-ms="146" started-at="2020-06-03T08:52:25 IST" finished-at="2020-06-03T08:52:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Testcases.AccountCreationTest -->
     </test> <!-- AccountCreation -->
-    <test name="LoginTest" duration-ms="11140" started-at="2020-05-31T19:24:03 IST" finished-at="2020-05-31T19:24:14 IST">
+    <test name="LoginTest" duration-ms="10570" started-at="2020-06-03T08:52:26 IST" finished-at="2020-06-03T08:52:36 IST">
       <class name="Testcases.LoginTest">
-        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="initalizeTest" is-config="true" duration-ms="6814" started-at="2020-05-31T19:24:03 IST" finished-at="2020-05-31T19:24:10 IST">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="initalizeTest" is-config="true" duration-ms="5805" started-at="2020-06-03T08:52:26 IST" finished-at="2020-06-03T08:52:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeTest -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="Login" duration-ms="4258" started-at="2020-05-31T19:24:10 IST" finished-at="2020-05-31T19:24:14 IST">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="Login" duration-ms="4406" started-at="2020-06-03T08:52:31 IST" finished-at="2020-06-03T08:52:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="closeBrowser" is-config="true" duration-ms="51" started-at="2020-05-31T19:24:14 IST" finished-at="2020-05-31T19:24:14 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.LoginTest@49fc609f]" name="closeBrowser" is-config="true" duration-ms="353" started-at="2020-06-03T08:52:36 IST" finished-at="2020-06-03T08:52:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- Testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test name="E2ETest" duration-ms="37929" started-at="2020-05-31T19:24:14 IST" finished-at="2020-05-31T19:24:52 IST">
+    <test name="E2ETest" duration-ms="32539" started-at="2020-06-03T08:52:36 IST" finished-at="2020-06-03T08:53:09 IST">
       <class name="Testcases.E2ETest">
-        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.E2ETest@3b084709]" name="initalizeTest" is-config="true" duration-ms="6472" started-at="2020-05-31T19:24:14 IST" finished-at="2020-05-31T19:24:20 IST">
+        <test-method status="PASS" signature="initalizeTest()[pri:0, instance:Testcases.E2ETest@3b084709]" name="initalizeTest" is-config="true" duration-ms="6813" started-at="2020-06-03T08:52:36 IST" finished-at="2020-06-03T08:52:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizeTest -->
-        <test-method status="PASS" signature="E2ETesting()[pri:0, instance:Testcases.E2ETest@3b084709]" name="E2ETesting" duration-ms="31411" started-at="2020-05-31T19:24:20 IST" finished-at="2020-05-31T19:24:52 IST">
+        <test-method status="PASS" signature="E2ETesting()[pri:0, instance:Testcases.E2ETest@3b084709]" name="E2ETesting" duration-ms="25676" started-at="2020-06-03T08:52:43 IST" finished-at="2020-06-03T08:53:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2ETesting -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.E2ETest@3b084709]" name="closeBrowser" is-config="true" duration-ms="44" started-at="2020-05-31T19:24:52 IST" finished-at="2020-05-31T19:24:52 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Testcases.E2ETest@3b084709]" name="closeBrowser" is-config="true" duration-ms="46" started-at="2020-06-03T08:53:09 IST" finished-at="2020-06-03T08:53:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
